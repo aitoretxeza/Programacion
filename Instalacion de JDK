@@ -1,0 +1,19 @@
+INSTALACION DE JDK
+
+1-Descomprimir el paquete
+
+ • tar zxvf (nombre del archivo)
+
+2-Copiar la carpeta
+
+ • sudo mv (nombre carpeta) /usr/local
+
+3-Configurar para que JDK pueda ser ejecutable
+
+ • nano .bashrc
+ 
+ al final del archivo añadir:
+ 
+ • # java
+ • export JAVA_HOME=/usr/local/jdk1.8.0_20/
+ • export PATH=$PATH:$JAVA_HOME/bin
